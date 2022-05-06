@@ -3,4 +3,4 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontPageController;
 
-Route::get('/', [FrontPageController::class, 'index'])->name('frontpage.index');
+Route::get('/', [FrontPageController::class, 'index'])->name('layout.frontpage.index');
