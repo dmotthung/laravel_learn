@@ -1,3 +1,4 @@
+<!-- Footer -->
 <footer class="footer" style="background-image:url('{{ asset('frontend/img/map.png') }}')">
     <!-- Footer Top -->
     <div class="footer-top">
@@ -7,8 +8,7 @@
                     <!-- Footer About -->
                     <div class="single-widget footer-about widget">
                         <div class="logo">
-                            <div class="img-logo"><a class="logo" href="index.html"><img class="img-responsive"
-                                        src="{{ asset('frontend/img/logo2.png')}}" alt="logo"></a></div>
+                            <div class="img-logo"><a class="logo" href="index.html"><img class="img-responsive" src="{{ asset('frontend/img/logo2.png')}}" alt="logo"></a></div>
                         </div>
                         <div class="footer-widget-about-description">
                             <p>Beatae vitae dicta su explicabo nemo enim ipsam voluptatem quia voluptas
@@ -17,16 +17,11 @@
                         <div class="social">
                             <!-- Social Icons -->
                             <ul class="social-icons">
-                                <li><a class="facebook" href="#" target="_blank"><i
-                                            class="fa fa-facebook"></i></a></li>
-                                <li><a class="twitter" href="#" target="_blank"><i
-                                            class="fa fa-twitter"></i></a></li>
-                                <li><a class="linkedin" href="#" target="_blank"><i
-                                            class="fa fa-linkedin"></i></a></li>
-                                <li><a class="pinterest" href="#" target="_blank"><i
-                                            class="fa fa-pinterest-p"></i></a></li>
-                                <li><a class="instagram" href="#" target="_blank"><i
-                                            class="fa fa-instagram"></i></a></li>
+                                <li><a class="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="linkedin" href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="pinterest" href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li><a class="instagram" href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                         <div class="button"><a href="#" class="bizwheel-btn">About Us</a></div>
@@ -97,8 +92,7 @@
                 <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-12">
                     <!-- Footer Newsletter -->
                     <div class="footer-newsletter">
-                        <form action="#" method="post" class="newsletter-area"><input type="email"
-                                placeholder="Your email address"><button type="submit">Sign Up</button></form>
+                        <form action="#" method="post" class="newsletter-area"><input type="email" placeholder="Your email address"><button type="submit">Sign Up</button></form>
                     </div>
                     <!--/ End Footer Newsletter -->
                 </div>
@@ -111,8 +105,7 @@
                 <div class="col-12">
                     <div class="copyright-content">
                         <!-- Copyright Text -->
-                        <p>© Copyright <a href="#">Bizwheel</a>. Design &amp;Development By <a
-                                href="http://www.bootstrapmb.com">ThemeLamp</a></p>
+                        <p>© Copyright <a href="#">Bizwheel</a>. Design &amp;Development By <a href="http://www.bootstrapmb.com">ThemeLamp</a></p>
                     </div>
                 </div>
             </div>
@@ -120,3 +113,10 @@
     </div>
     <!--/ End Copyright -->
 </footer>
+<!--/ End Footer -->
+</div><!-- End Boxed Layout -->
+<!-- Jquery JS -->
+@include('layout.partials.scripts')
+</body>
+
+</html>

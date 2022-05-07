@@ -1,11 +1,11 @@
 <header class="header">
     <!-- Topbar -->
-    @include('layout.global-templates.items-header.topbar')
+    @include('layout.partials._header.topbar')
     <!--/ End Topbar -->
     <!-- Middle Header -->
-    @include('layout.global-templates.items-header.middle')
+    @include('layout.partials._header.middle')
     <!--/ End Middle Header -->
     <!-- Sidebar Popup -->
-    @include('layout.global-templates.items-header.sidebar')
+    @include('layout.partials._header.sidebar')
     <!--/ Sidebar Popup -->
 </header>

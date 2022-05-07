@@ -1,40 +1,40 @@
-@extends('layout.frontend')
+@extends('layout.index')
 @section('title')
 Trang chủ
 @endsection
 
 @section('content')
 <!-- Hero Slider -->
-@include('layout.frontpage.items.slider')
+@include('layout.partials._home.slider')
 <!--/ End Hero Slider -->
 <!-- Features Area -->
-@include('layout.frontpage.items.features')
+@include('layout.partials._home.features')
 <!--/ End Features Area -->
 <!-- Video Feature -->
-@include('layout.frontpage.items.video')
+@include('layout.partials._home.video')
 <!--/ End Video Feature -->
 <!-- Services -->
-@include('layout.frontpage.items.services')
+@include('layout.partials._home.services')
 <!--/ End Services -->
 <!-- Call To Action -->
-@include('layout.frontpage.items.callaction')
+@include('layout.partials._home.callaction')
 <!--/ End Call to action -->
 <!-- Portfolio -->
-@include('layout.frontpage.items.portfolio')
+@include('layout.partials._home.portfolio')
 <!--/ End Portfolio -->
 <!-- Testimonials -->
-@include('layout.frontpage.items.testimonials')
+@include('layout.partials._home.testimonials')
 <!--/ End Testimonials -->
 <!-- Counterup -->
-@include('layout.frontpage.items.counterup')
+@include('layout.partials._home.counterup')
 <!--/ End Counterup -->
 <!-- Our Team -->
-@include('layout.frontpage.items.team')
+@include('layout.partials._home.team')
 <!--/ End Team -->
 <!-- Latest Blog -->
-@include('layout.frontpage.items.blog')
+@include('layout.partials._home.blog')
 <!--/ End Latest Blog -->
 <!-- Client Area -->
-@include('layout.frontpage.items.client')
+@include('layout.partials._home.client')
 <!--/ End Client Area -->
 @endsection
