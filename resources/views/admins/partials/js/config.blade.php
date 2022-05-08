@@ -1,0 +1,3 @@
+<script>
+    var primary=localStorage.getItem("primary")||'#24695c';var secondary=localStorage.getItem("secondary")||'#ba895d';window.vihoAdminConfig={primary:primary,secondary:secondary,};$("#default-demo").click(function(){localStorage.setItem('page-wrapper','page-wrapper compact-wrapper');localStorage.setItem('page-body-wrapper','sidebar-icon')});$("#compact-demo").click(function(){localStorage.setItem('page-wrapper','page-wrapper compact-wrapper compact-sidebar');localStorage.setItem('page-body-wrapper','sidebar-icon')});$("#modern-demo").click(function(){localStorage.setItem('page-wrapper','page-wrapper compact-wrapper modern-sidebar');localStorage.setItem('page-body-wrapper','sidebar-icon')})
+</script>

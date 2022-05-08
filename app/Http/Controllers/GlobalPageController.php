@@ -8,6 +8,6 @@ class GlobalPageController extends Controller
 {
     public function index()
     {
-        return view('layout.aboutus.index');
+        return view('layouts.aboutus.index');
     }
 }

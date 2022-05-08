@@ -8,6 +8,6 @@ class FrontPageController extends Controller
 {
     public function index()
     {
-        return view('layout.partials.home');
+        return view('layouts.partials.home');
     }
 }
