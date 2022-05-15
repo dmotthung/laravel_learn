@@ -4,10 +4,10 @@
 @include('layouts.partials.js.bootstrap')
 @include('layouts.partials.js.modernizr')
 @include('layouts.partials.js.scrollup')
-@include('layouts.partials.js.fancybox')
-@include('layouts.partials.js.cubeportfolio')
+<script src="{{ asset('frontend/js/jquery-fancybox.min.js') }}"></script>
+<script src="{{ asset('frontend/js/cubeportfolio.min.js') }}"></script>
 @include('layouts.partials.js.slicknav')
-@include('layouts.partials.js.waypoints')
+<script src="{{ asset('frontend/js/waypoints.min.js') }}"></script>
 @include('layouts.partials.js.counterup')
 @include('layouts.partials.js.owlcarousel')
 @include('layouts.partials.js.easing')

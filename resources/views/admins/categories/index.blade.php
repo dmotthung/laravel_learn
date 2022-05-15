@@ -4,7 +4,7 @@
   @endsection
 
   @section('breadcrumb')
-  Dashboard/Categories
+  {{ Breadcrumbs::render('admins.categories.index') }}
   @endsection
 
 @section('content')

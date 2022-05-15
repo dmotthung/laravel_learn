@@ -1,7 +1,7 @@
 @include('layouts.partials.css.animate')
 @include('layouts.partials.css.bootstrap')
 @include('layouts.partials.css.cubeportfolio')
-@include('layouts.partials.css.fontawesome')
+<link rel="stylesheet" href="{{ asset('frontend/css/font-awesome.css') }}"/>
 @include('layouts.partials.css.fancybox')
 @include('layouts.partials.css.magnificpopup')
 @include('layouts.partials.css.owlcarousel')

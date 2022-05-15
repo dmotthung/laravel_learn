@@ -4,7 +4,7 @@
   @endsection
 
   @section('breadcrumb')
-  Dashboard/Posts
+  {{ Breadcrumbs::render('admins.posts.index') }}
   @endsection
 
 @section('content')

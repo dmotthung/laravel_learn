@@ -4,7 +4,7 @@
   @endsection
 
   @section('breadcrumb')
-  Dashboard
+  {{ Breadcrumbs::render('admins.partials.dashboard_home') }}
   @endsection
 
 @section('content')
